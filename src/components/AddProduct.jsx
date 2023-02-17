@@ -41,7 +41,7 @@ const AddProduct = () => {
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="formBasicCheckbox">
-              <Form.Check type="checkbox" checked={status} onChange={(e) => setStatus(e.target.checked)} />
+              <Form.Check type="checkbox" label="Active" checked={status} onChange={(e) => setStatus(e.target.checked)} />
             </Form.Group>
             <Button variant="outline-info" type="submit" size="sm">
               Save
